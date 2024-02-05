@@ -1,4 +1,3 @@
 N = int(input())
 numbers = list(map(int, input().split()))
-
-print(numbers.count(int(input())))
+print(f"{min(numbers)} {max(numbers)}")
